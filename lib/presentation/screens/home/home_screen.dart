@@ -59,16 +59,16 @@ class _HomeScreenView extends StatelessWidget {
             subTitle: 'Mantener el estado de un Stream y sus emosiones',
             location: '/stream-provider'),
 
-        _CustomListTile(
-            title: 'Change Notifier Provider',
-            subTitle: 'Provider con control de notificación a listeners',
-            location: '/change-notifier-provider'),
 
         _CustomListTile(
             title: 'State Notifier Provider',
             subTitle: 'Provider con notificación automática',
             location: '/state-notifier-provider'),
 
+        _CustomListTile(
+            title: 'Change Notifier Provider',
+            subTitle: 'Provider con control de notificación a listeners',
+            location: '/change-notifier-provider'),
       ],
     );
   }
