@@ -10,6 +10,13 @@ class FutureProviderScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Future Provider'),
       ),
+      body: const Center(
+        child: Text('Fernando Herrera'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon( Icons.refresh ),
+        onPressed: () {  },
+      ),
     );
   }
 }
