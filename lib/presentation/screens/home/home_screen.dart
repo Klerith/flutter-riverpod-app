@@ -48,6 +48,11 @@ class _HomeScreenView extends StatelessWidget {
             subTitle: 'Mantener el estado de un future y su retorno',
             location: '/future-provider'),
 
+        _CustomListTile(
+            title: 'Family Future Provider',
+            subTitle: 'Providers con argumentos',
+            location: '/future-family-provider'),
+
 
         _CustomListTile(
             title: 'Stream Provider',

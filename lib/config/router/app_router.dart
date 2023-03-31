@@ -39,6 +39,11 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
+      path: '/future-family-provider',
+      builder: (context, state) => const FamilyFutureScreen(),
+    ),
+
+    GoRoute(
       path: '/stream-provider',
       builder: (context, state) => const StreamProviderScreen(),
     ),
