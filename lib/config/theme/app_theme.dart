@@ -20,6 +20,7 @@ class AppTheme {
     listTileTheme: const ListTileThemeData(
       iconColor: seedColor,
     ),
+    
   );
 
 }
