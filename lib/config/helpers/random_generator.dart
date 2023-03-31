@@ -11,5 +11,9 @@ class RandomGenerator {
     return randomNames.fullName();
   }
 
-
+  static Stream<String> randomNameStream() {
+    return Stream.periodic(
+      const Duration(seconds: 2), (i) => getRandomName()
+    ).take(10);
+  }
 }
