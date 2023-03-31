@@ -10,6 +10,10 @@ class RouterScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Provider + Go Router'),
       ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon( Icons.arrow_back_ios_new_rounded ),
+        onPressed: () {},
+      ),
     );
   }
 }

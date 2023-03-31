@@ -10,6 +10,9 @@ class ProviderScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Provider'),
       ),
+      body: const Center(
+        child: Text('Fernando Herrera'),
+      ),
     );
   }
 }
