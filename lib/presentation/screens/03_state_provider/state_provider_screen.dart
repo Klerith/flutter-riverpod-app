@@ -22,6 +22,12 @@ class StateProviderScreen extends StatelessWidget {
             ),
 
             const Text('Fernando Herrera', style: TextStyle(fontSize: 25 )),
+
+            TextButton.icon(
+              icon: const Icon( Icons.add, size: 50,),
+              label: const Text('0', style: TextStyle(fontSize: 100)),
+              onPressed: () {},
+            ),
             
             const Spacer( flex: 2 ),
           ],
