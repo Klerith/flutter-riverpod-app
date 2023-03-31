@@ -34,6 +34,7 @@ dependencies:
     sdk: flutter
   go_router: ^6.5.1
   random_name_generator: ^1.1.0
+  uuid: ^3.0.7
 
 dev_dependencies:
   flutter_lints: ^2.0.0
