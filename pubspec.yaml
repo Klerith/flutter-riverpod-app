@@ -32,6 +32,7 @@ dependencies:
   dio: ^5.1.1
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.3.2
   go_router: ^6.5.1
   random_name_generator: ^1.1.0
   uuid: ^3.0.7
