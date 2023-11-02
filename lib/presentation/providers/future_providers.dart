@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:riverpod_app/config/config.dart';
 
@@ -11,7 +12,7 @@ Future<String> pokemonName(PokemonNameRef ref) async {
   final pokemonName = await PokemonInformation.getPokemonName(pokemonId);
 
   ref.onDispose(() {
-    print('Estamos a punto de eliminar este provider');
+    debugPrint('Estamos a punto de eliminar este provider');
   });
 
   return pokemonName;
@@ -39,6 +40,11 @@ class PokemonId extends _$PokemonId {
 Future<String> pokemon(PokemonRef ref, int pokemonId ) async{
   
   final pokemonName = await PokemonInformation.getPokemonName(pokemonId);
+
+  ref.onDispose(() {
+    debugPrint('Estamos a punto de eliminar este provider (No entra porque tiene el keepAlive y family)');
+  });
+
   return pokemonName;
 
 }
