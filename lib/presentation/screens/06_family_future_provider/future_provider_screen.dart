@@ -10,12 +10,11 @@ class FamilyFutureScreen extends ConsumerStatefulWidget {
 }
 
 class FamilyFutureScreenState extends ConsumerState<FamilyFutureScreen> {
-
-  int pokemonId = 3;
+  late int pokemonId;
 
   @override
   Widget build(BuildContext context) {
-
+    pokemonId = ref.watch(pokemonIdProvider);
     final pokemonAsync = ref.watch(pokemonProvider(pokemonId));
 
     return Scaffold(
@@ -36,9 +35,10 @@ class FamilyFutureScreenState extends ConsumerState<FamilyFutureScreen> {
               heroTag: 'btn-1',
               child: const Icon(Icons.exposure_minus_1),
               onPressed: () {
-                if ( pokemonId <= 1 ) return;
-                pokemonId--;
-                setState(() {});
+                // if ( pokemonId <= 1 ) return;
+                // pokemonId--;
+                // setState(() {});
+                ref.read(pokemonIdProvider.notifier).prevPokemon();
               },
             ),
             const SizedBox(
@@ -47,8 +47,9 @@ class FamilyFutureScreenState extends ConsumerState<FamilyFutureScreen> {
             FloatingActionButton(
               child: const Icon(Icons.add),
               onPressed: () {
-                pokemonId++;
-                setState(() {});
+                // pokemonId++;
+                // setState(() {});
+                ref.read(pokemonIdProvider.notifier).nextPokemon();
               },
             ),
           ],
