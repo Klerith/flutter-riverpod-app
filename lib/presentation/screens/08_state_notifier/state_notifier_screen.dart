@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class StateNotifierScreen extends StatelessWidget {
   const StateNotifierScreen({super.key});
 

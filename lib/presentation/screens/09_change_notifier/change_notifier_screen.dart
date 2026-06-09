@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ChangeNotifierScreen extends StatelessWidget {
   const ChangeNotifierScreen({super.key});
 

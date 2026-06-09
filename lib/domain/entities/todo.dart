@@ -1,7 +1,4 @@
-
-
 class Todo {
-
   final String id;
   final String description;
   final DateTime? completedAt;
@@ -20,10 +17,10 @@ class Todo {
     String? id,
     String? description,
     DateTime? completedAt,
-  }) => Todo(
-    id: id ?? this.id,
-    description: description ?? this.description,
-    completedAt: completedAt,
-  );
-
+  }) =>
+      Todo(
+        id: id ?? this.id,
+        description: description ?? this.description,
+        completedAt: completedAt,
+      );
 }

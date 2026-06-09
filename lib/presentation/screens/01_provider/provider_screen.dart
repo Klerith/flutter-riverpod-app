@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ProviderScreen extends StatelessWidget {
   const ProviderScreen({super.key});
 

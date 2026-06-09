@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FutureProviderScreen extends StatelessWidget {
   const FutureProviderScreen({super.key});
 
@@ -14,8 +13,8 @@ class FutureProviderScreen extends StatelessWidget {
         child: Text('Fernando Herrera'),
       ),
       floatingActionButton: FloatingActionButton(
-        child: const Icon( Icons.refresh ),
-        onPressed: () {  },
+        child: const Icon(Icons.refresh),
+        onPressed: () {},
       ),
     );
   }

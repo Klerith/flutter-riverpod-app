@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class StreamProviderScreen extends StatelessWidget {
   const StreamProviderScreen({super.key});
 
