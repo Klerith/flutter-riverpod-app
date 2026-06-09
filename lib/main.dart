@@ -8,12 +8,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp.router(
       title: 'Riverpod Providers',
       debugShowCheckedModeBanner: false,
       routerConfig: appRouter,
-      theme: AppTheme( isDarkmode: false ).getTheme(),
+      theme: AppTheme(isDarkMode: false).getTheme(),
     );
   }
 }
