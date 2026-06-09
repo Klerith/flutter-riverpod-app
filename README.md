@@ -1,16 +1,9 @@
-# riverpod_app
+# Riverpod_app
 
-A new Flutter project.
+Este es un proyecto de Flutter para aprender Riverpod.
 
-## Getting Started
+## Para empezar
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clona el repositorio:
+2. Realiza el pub get para instalar las dependencias
+3. Ejecuta la aplicación en tu emulador o dispositivo
