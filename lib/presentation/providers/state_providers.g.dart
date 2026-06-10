@@ -19,7 +19,7 @@ final class CounterProvider extends $NotifierProvider<Counter, int> {
           argument: null,
           retry: null,
           name: r'counterProvider',
-          isAutoDispose: true,
+          isAutoDispose: false,
           dependencies: null,
           $allTransitiveDependencies: null,
         );
@@ -40,7 +40,7 @@ final class CounterProvider extends $NotifierProvider<Counter, int> {
   }
 }
 
-String _$counterHash() => r'a021a5ff7b694343160c76ffe5adfbf028676c3a';
+String _$counterHash() => r'f86405bbc0701e6d7b1fb4eab82a91fbfc3daf9e';
 
 abstract class _$Counter extends $Notifier<int> {
   int build();
