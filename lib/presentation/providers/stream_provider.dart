@@ -10,6 +10,6 @@ Stream<List<String>> usersInChat(Ref ref) async* {
 
   await for (final name in RandomGenerator.randomNameStream()) {
     names.add(name);
-    yield names;
+    yield [...names];
   }
 }

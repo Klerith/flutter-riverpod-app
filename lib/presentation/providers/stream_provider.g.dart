@@ -41,4 +41,4 @@ final class UsersInChatProvider extends $FunctionalProvider<
   }
 }
 
-String _$usersInChatHash() => r'78d12e87b6ec2ecb13c0b957c7ae9c795a896c60';
+String _$usersInChatHash() => r'20b09cae43d70646bc87221ca54e0dbb9654f432';
