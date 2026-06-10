@@ -85,7 +85,7 @@ final class DarkModeProvider extends $NotifierProvider<DarkMode, bool> {
   }
 }
 
-String _$darkModeHash() => r'29dfcb4c27834c54918e2434cb481819e8e50f09';
+String _$darkModeHash() => r'74ee7fdba3ed1df5d5856e9fd7829266afdde27b';
 
 abstract class _$DarkMode extends $Notifier<bool> {
   bool build();

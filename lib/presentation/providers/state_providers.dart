@@ -15,7 +15,7 @@ class Counter extends _$Counter {
 @riverpod
 class DarkMode extends _$DarkMode {
   @override
-  bool build() => true;
+  bool build() => false;
 
   void toggleTheme() {
     state = !state;
